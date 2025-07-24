@@ -64,6 +64,7 @@ function reset() {
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
+  pixelDensity(1);
   
   // Create labels
   titleLabel = new Label("Las Botellas", 92, CENTER, TOP);
